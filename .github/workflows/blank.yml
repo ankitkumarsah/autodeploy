@@ -25,7 +25,7 @@ jobs:
      - name: 📂 Sync files
        uses: SamKirkland/FTP-Deploy-Action@4.0.0
        with:
-        server:  ftp://208.109.14.72
+        server: 208.109.14.72
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: /www/wwwroot/computerdost.com/
